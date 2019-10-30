@@ -1,0 +1,4 @@
+DELETE FROM wlh12
+WHERE id = $1;
+
+RETURNING *;
